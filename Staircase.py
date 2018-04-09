@@ -21,6 +21,7 @@ def staircase(n):
     hashes = "#"
     for x in range(n):
         print((n-x-1)*spaces + ((x+1)*hashes))
+    return None 
 
 if __name__ == '__main__':
     n = int(input())
